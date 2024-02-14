@@ -47,22 +47,28 @@
 <body>
 <div style="display: flex; flex-direction: column;">
   <div id="love-card">
-    <h2>My dear Nur...,</h2>
-    <p>Assalamu alaikum, how are you? I hope you are well. I have realized you are a soft-hearted girl. Always I feel your presence in my heart, also missing you every moment.</p>
+    <h2 style="background-color: rgb(237, 182, 109); padding: 15px; border-radius: 15px; font-weight: 800 ; font-size: 1.5rem;">My dear Nur...,</h2>
+    <p style="text-align: justify; background-color: rgb(246, 240, 183); font-weight: 500; padding: 15px; border-radius: 15px;">Assalamu alaikum, how are you? I hope you are well. I have realized you are a soft-hearted girl. Always I feel your presence in my heart, also missing you every moment.</p>
     <p>Click the button to reveal a little surprise!</p>
     <button onclick="getSurpriseVideo()" style="background-color: rgb(164, 236, 186); padding: 10px; font-size: 20px; border-radius: 15px; border-color: aquamarine;">surprise</button>
     <p id="surprise-text" style="display: none;">I love you more than words can express! 😊</p>
   </div>
   
-  <div style="width: 100%;">
-    <iframe id="surprise-video" style="width: 100%; margin-top: 20px; display: none;" src="./video/0214.mp4" frameborder="0"></iframe>
-  </div>
+  
+<div>
+  
+  <iframe  id="surprise-video" style="margin-top: 20px; border-radius: 10px; display: none; border: 20px solid rgb(212, 162, 54);" src="https://drive.google.com/file/d/1NRTWhXa9dO7KS3u-8wquB2eBRrGScjFR/preview" width="80%" height="250px" allow="autoplay"></iframe>
+
+
+</div>
+ 
 </div>
 
 <script>
   function getSurpriseVideo() {
     const surpriseVideo = document.getElementById('surprise-video');
-    surpriseVideo.style.display = 'block';
+    
+    surpriseVideo.style.display =''
   }
 </script>
 
